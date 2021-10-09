@@ -19,6 +19,7 @@
     text-transform: capitalize ;
     transition: all .2s linear;
     transition: width none;
+    text-decoration:none;
 
 }
 html{
@@ -45,3 +46,52 @@ html::-webkit-scrollbar-thumb{
 
 }
 
+.header .header-1 .logo{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color:var(--black);
+}
+.header .header-1 .logo i{
+    color: var(--green);
+}
+.header .header-1 .search-form{
+    width: 50rem;
+    height:5rem;
+    border: var(--border);
+    overflow: hidden;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    border-radius: .5rem;
+}
+.header .header-1 .search-form input{
+    font-size: 1.6rem;
+    padding: 0 1.2rem;
+    height: 100%;
+    width: 100%;
+    text-transform: none;
+    color: var(--black);
+}
+.header .header-1 .search-form label{
+    font-size: 2.5rem;
+    padding-right: 1.5rem;
+    color: var(--black);
+    cursor: pointer;
+}
+.header .header-1 .search-form label:hover{
+    color: var(--green);
+}
+.header .header-1 .icons div,
+.header .header-1 .icons a{
+    font-size: 2.5rem;
+    margin-left: 1.5rem;
+    color: var(--black);
+    cursor:pointer
+}
+.header .header-1 .icons div:hover,
+.header .header-1 .icons a:hover{
+    color: var(--green);
+}
+#search-btn{
+    display: none;
+}
